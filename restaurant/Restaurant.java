@@ -7,7 +7,7 @@ public class Restaurant {
     private byte id = 0;
 
 public Restaurant() { 
-    nama_makanan = new String[10];  //dibuat public agar bisa menginisialisasi objek
+    nama_makanan = new String[10]; 
     harga_makanan = new double[10]; 
     stok = new int[10];
 }
@@ -37,12 +37,12 @@ private void setStok(int index, int newStok){
     }
 }
 
-public void tambahMenuMakanan(String nama, double harga, int stokBaru) { //dibuat public agar bisa menambahkan input
+public void tambahMenuMakanan(String nama, double harga, int stokBaru) { 
     if(id >= nama_makanan.length){
         System.out.println("Menu habis");
     }
     if(stokBaru < 0){
-        System.out.println("Silahkan pilih menu lain (stok tidak boleh negatif)");
+        System.out.println("Silahkan pilih menu lain");
         return;
     }
         
