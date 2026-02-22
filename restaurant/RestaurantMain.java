@@ -44,7 +44,7 @@ public class RestaurantMain {
             lanjut = jawaban.equalsIgnoreCase("ya");
         }
 
-        System.out.println("Terima kasih telah memesan!");
+        System.out.println("Terima kasih");
         sc.close();
     }
 }
